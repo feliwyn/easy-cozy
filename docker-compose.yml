@@ -35,7 +35,6 @@ services:
   
   front:
     image: traefik:1.7.20
-    restart: on-failure
     ports:
       - 80:80
       - 443:443
